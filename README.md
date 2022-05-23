@@ -62,38 +62,21 @@ DDRB |=0x0f;
    {
      SET_PIN(PORTB,0);
    }
-  else
-   {
-     CLEAR_PIN(PORTB,0);
-   }
 
    if (boton2==0)
    {
      SET_PIN(PORTB,1);
    }
   
-  else
-  {
-    CLEAR_PIN(PORTB,1);
-  }
    if (boton3==0)
    {
      SET_PIN(PORTB,2);
-   }
-   else
-   {
-     CLEAR_PIN(PORTB,2);
    }
 
    if (boton4==0)
    {
      SET_PIN(PORTB,3);
    }
-   else
-   {
-     CLEAR_PIN(PORTB,3);
-   }
-   
   }
 
   return 0;
