@@ -82,5 +82,5 @@ DDRB |=0x0f;
   return 0;
 ```
 # Diagrama de Flujo
-![Diagrama de Flujo](Diagrama_TP1.png "Diagrama")
+![Diagrama de Flujo](Diagrama_TP1.svg "Diagrama")
 
